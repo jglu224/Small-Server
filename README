@@ -1,0 +1,15 @@
+					CS270: Project 5
+				Authors: Josh Luttrell, Devon Schleyer
+
+	Files: smalld.cpp smLib.cpp smLib.h smallSet.cpp smallGet.cpp smallDigest.cpp Makefile README
+
+
+Description: This project consisted of a server and client communication that completed a few tasks.
+	     smalld was the server while smallSet, smallGet, and smallDigest were client programs.
+	     In each of these functions we used both Rio_readn() and Rio_writen.  In the smallDigest
+	     function we also used popen() and pclose() to store the incovation of the echo function
+	     into a file. We also used vectors to store the variables and values that were printed 
+	     in smallGet. Wherever we used Rio_readn() and Rio_writen(), we also used network byte
+	     order that formats the sent and received information in a standard way.
+
+Limitations: There are no limitations for our program to our knowledge.
